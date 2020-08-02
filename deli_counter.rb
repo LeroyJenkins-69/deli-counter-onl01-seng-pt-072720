@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(queue)
-  
+  if queue.len
 end
 line
 
