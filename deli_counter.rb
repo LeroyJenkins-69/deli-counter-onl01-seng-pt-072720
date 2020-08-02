@@ -15,9 +15,7 @@ def line(queue)
 end
 
 def take_a_number(queue, name)
-  counter = 1
-  if queue.size == 0 
     queue.push(name)
-    queue.join
+    puts "Welcome, #{name}. You are number #{queue.length} in line."
   end 
 end
