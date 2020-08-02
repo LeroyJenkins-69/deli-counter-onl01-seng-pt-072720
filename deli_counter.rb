@@ -17,7 +17,7 @@ end
 def take_a_number(queue, name)
   counter = 1
   if queue.size == 0 
-    queue. 
-    puts "Welcome, #{name}, you are number #{counter}"
+    queue.push(name)
+    queue.join
   end 
 end
