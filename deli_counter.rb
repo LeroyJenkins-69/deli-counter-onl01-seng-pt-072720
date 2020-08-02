@@ -17,7 +17,7 @@ end
 def take_a_number(queue, name)
   counter = 1
   if queue.size == 0 
-    name << queue 
+    queue. 
     puts "Welcome, #{name}, you are number #{counter}"
   end 
 end
