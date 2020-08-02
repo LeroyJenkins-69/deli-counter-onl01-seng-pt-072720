@@ -2,11 +2,13 @@ katz_deli = []
 
 def line(queue)
   blank = ["The line is currently:"]
+  counter = 1
   if queue.size == 0
     puts "The line is currently empty."
   elsif queue.size > 1
     queue.each do |a|
-    puts " #{idx + 1}. #{a}."
+    blank << "#{counter} #{a}."
+    counter += 1 
     end
   end
 end
