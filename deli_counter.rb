@@ -24,6 +24,6 @@ def now_serving(queue)
     puts "There is nobody waiting to be served!"
   else 
     puts "Currently serving #{queue.first}."
-    queue.
+    queue.shift
   end
 end 
