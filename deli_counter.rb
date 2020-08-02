@@ -13,3 +13,7 @@ def line(queue)
     puts blank.join(" ")
   end
 end
+
+def take_a_number(queue, customer)
+  
+end
