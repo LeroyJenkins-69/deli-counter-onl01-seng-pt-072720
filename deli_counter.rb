@@ -10,5 +10,6 @@ def line(queue)
     blank << "#{counter} #{a}."
     counter += 1 
     end
+    blank.join(" ")
   end
 end
