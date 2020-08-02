@@ -23,6 +23,7 @@ def now_serving(queue)
   if queue.size == 0 
     puts "There is nobody waiting to be served!"
   else 
-    puts "#{queue.first}"
+    puts "Currently serving #{queue.first}."
+    queue.
   end
 end 
