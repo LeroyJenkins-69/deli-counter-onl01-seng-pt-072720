@@ -1,7 +1,9 @@
 katz_deli = []
 
 def line(queue)
-  if queue.len
+  if queue.size == 0 
+    puts ""
+  end 
 end
 line
 
