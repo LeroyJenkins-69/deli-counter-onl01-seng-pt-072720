@@ -18,6 +18,6 @@ def take_a_number(queue, name)
   counter = 1
   if queue.size == 0 
     name << queue 
-    puts "Welcome, #{name}, you are number #{counter}"
+    queue.join
   end
 end
