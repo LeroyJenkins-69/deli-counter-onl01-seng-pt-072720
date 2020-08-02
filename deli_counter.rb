@@ -15,8 +15,12 @@ def line(queue)
 end
 
 def take_a_number(queue, name)
-    queue.push(name)
-    puts "Welcome, #{name}. You are number #{queue.length} in line."
+  queue.push(name)
+  puts "Welcome, #{name}. You are number #{queue.length} in line."
 end
 
-def 
+def now_serving(queue)
+  if queue.size == 0 
+    puts ""
+  end
+end 
