@@ -7,7 +7,7 @@ def line(queue)
     puts "The line is currently empty."
   elsif queue.size > 1
     queue.each do |a|
-    blank << "#{counter} #{a}."
+    blank << "#{counter}. #{a}"
     counter += 1 
     end
     puts blank.join(" ")
